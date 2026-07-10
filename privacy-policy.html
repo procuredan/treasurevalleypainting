@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy | Treasure Valley Painting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+<!-- Google tag (gtag.js) — GA4 + Google Ads (standard across all pages) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+  gtag('config', 'AW-17934471659');
+</script>
+<!-- Procure click-source capture: stores gclid/UTM on landing, attaches to the form -->
+<script>
+(function(){
+  try{
+    var qs = new URLSearchParams(window.location.search);
+    var keys = ['gclid','gbraid','wbraid','campaignid','utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+    var store = {};
+    try{ var c=(document.cookie.match(/(?:^|; )pm_attr=([^;]*)/)||[])[1]; if(c) store=JSON.parse(decodeURIComponent(c))||{}; }catch(e){ store={}; }
+    var got=false;
+    keys.forEach(function(k){ var v=qs.get(k); if(v){ store[k]=v; got=true; } });
+    if(got || !store.landing){
+      if(!store.landing) store.landing=window.location.pathname;
+      if(!store.referrer) store.referrer=document.referrer||'';
+      document.cookie='pm_attr='+encodeURIComponent(JSON.stringify(store))+'; path=/; max-age=7776000; SameSite=Lax';
+    }
+    function fill(){
+      var f=document.querySelector('form'); if(!f) return;
+      Object.keys(store).forEach(function(k){
+        if(store[k] && !f.querySelector('[name="'+k+'"]')){
+          var i=document.createElement('input'); i.type='hidden'; i.name=k; i.value=store[k]; f.appendChild(i);
+        }
+      });
+    }
+    if(document.readyState!=='loading') fill(); else document.addEventListener('DOMContentLoaded', fill);
+  }catch(e){}
+})();
+</script>
+  <style>
+    body{font-family:Arial, sans-serif;background:#F5F8FB;margin:0;color:#16232E;line-height:1.7;}
+    .container{max-width:860px;margin:50px auto;background:#fff;padding:44px;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.08);}
+    h1{color:#0E4D7C;font-size:38px;margin:0 0 8px;}
+    .updated{color:#63727E;font-size:14px;margin-bottom:24px;}
+    h2{color:#0E4D7C;margin-top:30px;font-size:24px;}
+    p,li{color:#3d4b5f;font-size:16px;}
+    ul{padding-left:22px;}
+    a{color:#0E4D7C;}
+    footer{max-width:860px;margin:0 auto 40px;text-align:center;font-size:13px;color:#63727E;}
+    footer a{color:#0E4D7C;text-decoration:none;margin:0 6px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: July 9, 2026</p>
+
+    <p>Treasure Valley Painting ("we," "us," or "our") operates treasurevalleypainting.com. This Privacy Policy explains how we collect, use, and share information when you use our website and request a review or quote.</p>
+
+    <h2>Information We Collect</h2>
+    <p>When you submit a request, we collect the information you provide, such as your name, email address, phone number, organization or association name, and details about the services you are interested in. We also automatically collect limited technical data such as your IP address, browser type, referring page, and advertising click identifiers (for example, Google Click ID and UTM parameters) to measure and improve our marketing.</p>
+
+    <h2>How We Use Your Information</h2>
+    <ul>
+      <li>To contact you about your request and the services you asked us to review</li>
+      <li>To prepare and deliver competitive quotes, reviews, and related recommendations</li>
+      <li>To operate, measure, and improve our website and advertising</li>
+      <li>To comply with legal obligations</li>
+    </ul>
+
+    <h2>How We Share Your Information</h2>
+    <p>We share your information with Treasure Valley Painting and licensed specialists or service providers who help fulfill your request. We do not sell your personal information. We may disclose information when required by law.</p>
+    <p>Information you submit through our forms (such as name, email, and phone number) may be shared with the licensed local painting contractor who serves your area in order to fulfill your request and contact you about your project. That contractor may contact you by phone or email.</p>
+
+    <h2>Communications Consent</h2>
+    <p>By submitting a request, you consent to be contacted by Treasure Valley Painting and its partners by phone, text message, and email, including through automated technology, regarding your request. Consent is not a condition of purchase. You may opt out of marketing communications at any time by replying STOP to texts, clicking unsubscribe in emails, or contacting us at leads@treasurevalleypainting.com.</p>
+
+
+    <h2>SMS / Text Messaging</h2>
+    <p>The mobile phone number you provide for SMS text messaging will not be sold or shared with third parties or affiliates for their own marketing or promotional purposes. SMS opt-in consent is collected and used solely by Treasure Valley Painting (Procure Media, LLC).</p>
+    <p>Message frequency varies. Message and data rates may apply. Reply STOP to opt out at any time, or HELP for help.</p>
+
+    <h2>Cookies &amp; Analytics</h2>
+    <p>We use cookies and analytics tools (including Google Analytics and Google Ads) to understand site usage and measure advertising performance. You can control cookies through your browser settings.</p>
+
+    <h2>Your Choices &amp; Rights</h2>
+    <p>Depending on your state, you may have rights to access, correct, or delete your personal information, or to opt out of certain processing. To exercise these rights, contact us at leads@treasurevalleypainting.com.</p>
+
+    <h2>Contact Us</h2>
+    <p>Treasure Valley Painting<br>Email: <a href="mailto:leads@treasurevalleypainting.com">leads@treasurevalleypainting.com</a><br>Phone: <a href="tel:12082481922">(208) 248-1922</a></p>
+  </div>
+  <footer>
+    © 2026 Treasure Valley Painting. All rights reserved. |
+    <a href="/">Home</a> |
+    <a href="/terms.html">Terms of Use</a>
+  </footer>
+</body>
+</html>

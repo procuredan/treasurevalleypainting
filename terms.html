@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terms &amp; Conditions | Treasure Valley Painting</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+<!-- Google tag (gtag.js) — GA4 + Google Ads (standard across all pages) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+  gtag('config', 'AW-17934471659');
+</script>
+<!-- Procure click-source capture: stores gclid/UTM on landing, attaches to the form -->
+<script>
+(function(){
+  try{
+    var qs = new URLSearchParams(window.location.search);
+    var keys = ['gclid','gbraid','wbraid','campaignid','utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+    var store = {};
+    try{ var c=(document.cookie.match(/(?:^|; )pm_attr=([^;]*)/)||[])[1]; if(c) store=JSON.parse(decodeURIComponent(c))||{}; }catch(e){ store={}; }
+    var got=false;
+    keys.forEach(function(k){ var v=qs.get(k); if(v){ store[k]=v; got=true; } });
+    if(got || !store.landing){
+      if(!store.landing) store.landing=window.location.pathname;
+      if(!store.referrer) store.referrer=document.referrer||'';
+      document.cookie='pm_attr='+encodeURIComponent(JSON.stringify(store))+'; path=/; max-age=7776000; SameSite=Lax';
+    }
+    function fill(){
+      var f=document.querySelector('form'); if(!f) return;
+      Object.keys(store).forEach(function(k){
+        if(store[k] && !f.querySelector('[name="'+k+'"]')){
+          var i=document.createElement('input'); i.type='hidden'; i.name=k; i.value=store[k]; f.appendChild(i);
+        }
+      });
+    }
+    if(document.readyState!=='loading') fill(); else document.addEventListener('DOMContentLoaded', fill);
+  }catch(e){}
+})();
+</script>
+  <style>
+    body{font-family:Arial, sans-serif;background:#F5F8FB;margin:0;color:#16232E;line-height:1.7;}
+    .container{max-width:860px;margin:50px auto;background:#fff;padding:44px;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.08);}
+    h1{color:#0E4D7C;font-size:38px;margin:0 0 8px;}
+    .updated{color:#63727E;font-size:14px;margin-bottom:24px;}
+    h2{color:#0E4D7C;margin-top:30px;font-size:24px;}
+    p,li{color:#3d4b5f;font-size:16px;}
+    ul{padding-left:22px;}
+    a{color:#0E4D7C;}
+    footer{max-width:860px;margin:0 auto 40px;text-align:center;font-size:13px;color:#63727E;}
+    footer a{color:#0E4D7C;text-decoration:none;margin:0 6px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Terms &amp; Conditions</h1>
+    <p class="updated">Last updated: July 9, 2026</p>
+
+    <p>These Terms &amp; Conditions govern your use of treasurevalleypainting.com, operated by Treasure Valley Painting. By using this website or submitting a request, you agree to these terms.</p>
+
+    <h2>Our Services</h2>
+    <p>Treasure Valley Painting provides informational reviews and connects you with Treasure Valley Painting and licensed specialists who may provide quotes, reviews, or related services. We do not guarantee any specific savings, outcome, or that any particular product or coverage will be available to you.</p>
+
+    <h2>No Professional Advice</h2>
+    <p>Content on this website is provided for general informational purposes only and does not constitute insurance, legal, financial, or other professional advice. You should consult a licensed professional before making decisions.</p>
+
+    <h2>Submissions &amp; Consent</h2>
+    <p>By submitting a form, you confirm the information you provide is accurate and you consent to be contacted as described in our <a href="/privacy-policy.html">Privacy Policy</a>, including by phone, text, and email through automated technology. Consent is not a condition of purchase.</p>
+
+    <h2>SMS / Text Messaging</h2>
+    <p>SMS / Text Messaging: If you opt in to SMS text messages, message frequency varies and message and data rates may apply. You can reply STOP to cancel at any time, or HELP for help. SMS consent is not a condition of purchase.</p>
+
+    <h2>Intellectual Property</h2>
+    <p>All content, branding, and materials on this website are owned by Treasure Valley Painting or its licensors and may not be copied or reused without permission.</p>
+
+    <h2>Limitation of Liability</h2>
+    <p>To the fullest extent permitted by law, Treasure Valley Painting and its partners are not liable for any indirect, incidental, or consequential damages arising from your use of this website or the services referenced on it.</p>
+
+    <h2>Contact Us</h2>
+    <p>Treasure Valley Painting<br>Email: <a href="mailto:leads@treasurevalleypainting.com">leads@treasurevalleypainting.com</a><br>Phone: <a href="tel:12082481922">(208) 248-1922</a></p>
+  </div>
+  <footer>
+    © 2026 Treasure Valley Painting. All rights reserved. |
+    <a href="/">Home</a> |
+    <a href="/privacy-policy.html">Privacy Policy</a>
+  </footer>
+</body>
+</html>
