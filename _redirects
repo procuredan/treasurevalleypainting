@@ -1,0 +1,5 @@
+# Branded lead-entry link -> opens the CRM "Add Lead" form.
+# Office must be signed into crm.procuremedia.com (marketing@arppainting.com) for the form to auto-open.
+# Factory-managed: copied verbatim into the Pages root by scripts/generate.mjs. Do not hand-edit .repos/ or dist/.
+/newlead    https://crm.procuremedia.com/?add=1    302
+/new-lead   https://crm.procuremedia.com/?add=1    302
